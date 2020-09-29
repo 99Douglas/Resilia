@@ -1,0 +1,67 @@
+body {
+    background-color: #f5f3ce;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2f2e2e;
+}
+.logo {
+    color: #f4cb01;
+}
+.cabecalho {
+    display: flex;
+}
+button {
+    text-decoration: none;
+    background: #f4cb01;
+    margin: 13px;
+    margin-top: 22px;
+    border-radius: 22%;
+}
+button:hover {
+    background: black;
+}
+nav a {
+    text-decoration: none;
+    color: black
+}
+nav a:hover {
+    transition: 1s;
+    color: #f4cb01
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f4cb01;
+}
+.icones {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+.capasfilmes {
+    margin-top: 10%;
+    margin-left: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 665px;
+    justify-content: space-around;
+    margin-bottom: 10%;
+    height: 800px;
+}
+
+.filmes {
+    height: 295px;
+    width: 200px;
+}
+
+@media(max-width:768px) {
+    header {
+        flex-direction: column;
+    }
+}
